@@ -1,0 +1,171 @@
+<!DOCTYPE html><html lang="en"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cyber Tech</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="css/all.min.css">
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/course-inner.css">
+	<link rel="stylesheet" href="css/contact.css">
+
+	<link rel="shortcut icon" href="/index page/images/favicon.png" type="image/x-icon">
+
+
+	<!-- JQuery CDN link -->
+	<script src="js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="/index page/images/logo.png" width="70px" height="50px" class="logo" alt="">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="/index page/index.html">Home</a></li>
+				<li><a href="/about page/about.html">About Us</a></li>
+				<li><a href="/blog page/blog.html">Blog</a></li>
+				<li><a href="/course page/course.html">Courses</a></li>
+				<li><a href="/contact page/contact.html" class="active">Contact</a></li>
+			</ul>
+
+			<img src="images/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="about-home">
+		<h2>
+			Contact Us /
+		</h2>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<section id="contact">
+		<div class="getin">
+			<h2>Get in touch</h2>
+			<p>Looking for help? Fill the form and start a new adventure.</p>
+
+			<div class="getin-details">
+				<h3>Headquaters</h3>
+				<div>
+					<i class="fa-solid fa-map get"></i>
+					<p>Blue Area, Islamabad, Pakistan</p>
+				</div>
+
+				<h3>Phone</h3>
+				<div>
+					<i class="fas fa-phone-alt get"></i>
+					<p>(+92) 321000000 <br> (+92) 33000000</p>
+				</div>
+
+				<h3>Support</h3>
+				<div>
+					<i class="fa-solid fa-envelope get"></i>
+					<p>cybertech@gmail.com <br> profawadofficials@gmail.com </p>
+				</div>
+
+				<h3>Follow Us</h3>
+				<div class="pro-links">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-linkedin-in"></i>
+				</div>
+			</div>
+		</div>
+
+		<div class="form">
+			<h4>Let's Connect</h4>
+			<p>Please leave us a Message, and we'll get back to you shortly.</p>
+			<div class="form-row">
+				<input type="text" placeholder="Your Name">
+				<input type="email" placeholder="Your Email">
+			</div>
+			<div class="form-col">
+				<input type="text" placeholder="Subject line...">
+			</div>
+			<div class="form-col">
+				<textarea name="" id="" cols="30" rows="8" placeholder="How can we help?"></textarea>
+			</div>
+
+			<div class="form-col">
+				<button>Send Message</button>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="map">
+		<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30711686.029386617!2d64.41853642919325!3d20.009139591170264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1652012148253!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+	</section>
+
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>ABOUT CYBERTECH</h3>
+			<li>What we do	</li>
+			<li>What is Cyber security?</li>
+			<li>Careers</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>QUICK LINKS</h3>
+			<li>Home</li>
+			<li>Blogs</li>
+			<li>About</li>
+			<li>Courses	</li>
+			<li>Contact</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>USEFUL LINKS</h3>
+			<li>GCHQ</li>
+			<li>MI5</li>
+			<li>SIS</li>
+			<li>GOV.UK</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Newsletter</h3>
+			<p>You can trust us. we only send promo offers,	Subscribe now!</p>
+
+			<div class="subscribe">
+				<input type="email" placeholder="Your email Address">
+				<a href="#" class="yellow">SUBSCRIBE</a>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<p>
+				Copyright @ 2025 All rights reserved | This Website is Developed by <a href="https://www.instagram.com/fawad_officials18/" target="_blank">CyberTech Community</a>
+			</p>
+			<div class="pro-links">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-linkedin-in"></i>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+
+</body></html>

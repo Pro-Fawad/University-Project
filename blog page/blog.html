@@ -1,0 +1,177 @@
+<!DOCTYPE html><html lang="en"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cyber Tech</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="css/all.min.css">
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/about.css">
+	<link rel="stylesheet" href="css/blog.css">
+
+	<link rel="shortcut icon" href="/index page/images/favicon.png" type="image/x-icon">
+
+	<!-- JQuery CDN link -->
+	<script src="js/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="/index page/images/logo.png" width="70px" height="50px" class="logo" alt="">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="/index page/index.html">Home</a></li>
+				<li><a href="/about page/about.html">About Us</a></li>
+				<li><a href="/blog page/blog.html" class="active">Blog</a></li>
+				<li><a href="/course page/course.html">Courses</a></li>
+				<li><a href="/contact page/contact.html">Contact</a></li>
+			</ul>
+
+			<img src="images/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="about-home">
+		<h2>
+			Blogs /
+		</h2>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Blog container starts from here -->
+	<section id="blog-container">
+		<div class="blogs">
+			<div class="post">
+				<img src="images/b1.png" alt="">
+				<h3>Assured Cyber Incident Response scheme - important updates</h3>
+				<p>
+					First and foremost, I am pleased to let you know that we will be ready to accept applications in the new year from companies wishing to join the Assured Cyber Incident Response scheme. We are telling you now because we have also made some important changes to the scheme’s technical standard, ways of working and pre-qualifying criteria, as well as agreeing a name change.
+				</p>
+				<a href="blog.html">Read More</a>
+			</div>
+
+			<div class="post">
+				<img src="images/b2.jpeg" alt="">
+				<h3>Best 8 Dark Web Monitoring Tools </h3>
+				<p>
+					In today's digital landscape, monitoring the dark web has become increasingly important for cybersecurity professionals, researchers, and organisations looking to protect their digital assets.The dark web, while often associated with illicit activities, is also a crucial space for privacy advocates, journalists, and security researchers. 
+				</p>
+				<a href="post.html">Read More</a>
+			</div>
+
+			<div class="post">
+				<img src="images/b3.webp" alt="">
+				<h3>What are the characteristics of a truly secure website?	</h3>
+				<p>
+					The correct management of user permissions, the regular updating of software or the use of cryptographic protocols are some characteristics of a truly secure website.
+				</p>
+				<a href="post.html">Read More</a>
+			</div>
+
+			<div class="post">
+				<img src="images/b4.webp" alt="">
+				<h3>10 tips to avoid cyber-attacks on Black Friday </h3>
+				<p>
+					Cyber-attacks on Black Friday can damage a company’s sales, cause data loss and lead to scams and frauds against consumers and businesses.Consumers will spend hundreds of euros during Black Friday, an increasingly important event for thousands of companies and millions of consumers.
+				</p>
+				<a href="post.html">Read More</a>
+			</div>
+
+			<div class="post">
+				<img src="images/b5.jpeg" alt="">
+				<h3>Top 10 Cyber Attacks and How to Respond	</h3>
+				<p>
+					Every workday brings new challenges and surprises, especially when it comes to cybersecurity. This guide helps employees recognize key warning signs of common cyber attacks and how to respond effectively. Small and medium-sized businesses (SMBs) often have limited resources and less robust security measures than larger enterprises.
+				</p>
+				<a href="post.html">Read More</a>
+			</div>
+		</div>
+		<div class="cate">
+			<h2>Categories</h2>
+			<hr>
+			<a href="#">Web Development</a>
+			<hr>
+			<a href="#">Web Designing</a>
+			<hr>
+			<a href="#">App Development</a>
+			<hr>
+			<a href="#">Cyber Security</a>
+			<hr>
+			<a href="#">Ethical Hacking</a>
+			<hr>
+			<a href="#">Python Hacks</a>
+		</div>
+	</section>
+	<!-- Blog container ends from here -->
+
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>ABOUT CYBERTECH</h3>
+			<li>What we do	</li>
+			<li>What is Cyber security?</li>
+			<li>Careers</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>QUICK LINKS</h3>
+			<li>Home</li>
+			<li>Blogs</li>
+			<li>About</li>
+			<li>Courses	</li>
+			<li>Contact</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>USEFUL LINKS</h3>
+			<li>GCHQ</li>
+			<li>MI5</li>
+			<li>SIS</li>
+			<li>GOV.UK</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Newsletter</h3>
+			<p>You can trust us. we only send promo offers,	Subscribe now!</p>
+
+			<div class="subscribe">
+				<input type="email" placeholder="Your email Address">
+				<a href="#" class="yellow">SUBSCRIBE</a>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<p>
+				Copyright @ 2025 All rights reserved | This Website is Developed by <a href="https://www.instagram.com/fawad_officials18/" target="_blank">CyberTech Community</a>
+			</p>
+			<div class="pro-links">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-linkedin-in"></i>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+
+</body></html>
